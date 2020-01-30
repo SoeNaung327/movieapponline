@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822942110630",
+    "firebase_url": "https://movieappadminpanelonline1.firebaseio.com",
+    "project_id": "movieappadminpanelonline1",
+    "storage_bucket": "movieappadminpanelonline1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822942110630:android:d876b0c196c2ae1fc2b567",
+        "android_client_info": {
+          "package_name": "com.itonemm.movieapponline1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822942110630-bovuuj0jd8mu15mrpahaqcks6uismh74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.movieapponline1",
+            "certificate_hash": "882591a894ccefed8af0b199e723c913cb7b7820"
+          }
+        },
+        {
+          "client_id": "822942110630-136s78e9vd2b8b8m7npgod2rhb4g9l6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMrTLO4VoMYQo6ERCBD8T0QFQ7m8QCJTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822942110630-136s78e9vd2b8b8m7npgod2rhb4g9l6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

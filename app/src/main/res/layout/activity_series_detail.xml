@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/series_image_panel"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/series_image"
+            android:layout_width="100dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sampleimage" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/series_image">
+
+            <TextView
+                android:id="@+id/series_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Series Name"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/episode_list"
+        android:layout_below="@+id/series_image_panel"/>
+
+
+</RelativeLayout>
