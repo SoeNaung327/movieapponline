@@ -61,7 +61,8 @@ public class CategoryFragment extends Fragment {
             @Override
             public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
                 ArrayList<CategoryModel> categoryModels=new ArrayList<>();
-                categoryIds.clear();;
+//                categoryIds.clear();;
+                categoryIds.clear();
                 for(DocumentSnapshot s:queryDocumentSnapshots)
                 {
                     categoryModels.add(s.toObject(CategoryModel.class));
@@ -85,7 +86,8 @@ public class CategoryFragment extends Fragment {
             @Override
             public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
                 ArrayList<CategoryModel> categoryModels=new ArrayList<>();
-                categoryIds.clear();;
+//                categoryIds.clear();;
+                categoryIds.clear();
                 for(DocumentSnapshot s:queryDocumentSnapshots)
                 {
                     categoryModels.add(s.toObject(CategoryModel.class));
